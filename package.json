@@ -1,0 +1,45 @@
+{
+  "name": "lu-react-manager-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.4.0",
+    "@ant-design/pro-components": "^2.7.15",
+    "@react-pdf/renderer": "^3.4.4",
+    "@unocss/reset": "^0.61.6",
+    "antd": "^5.21.0",
+    "axios": "^1.7.2",
+    "echarts": "^5.5.1",
+    "echarts-gl": "^2.0.9",
+    "immer": "^10.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.25.1",
+    "sass": "^1.77.8",
+    "svg-captcha": "^1.4.0",
+    "uuid": "^11.0.3",
+    "zustand": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.3",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "react-transition-group": "^4.4.5",
+    "unocss": "^0.61.6",
+    "vite": "^5.3.4",
+    "vite-plugin-mock": "^3.0.2",
+    "vite-plugin-mock-server": "^1.2.0",
+    "vite-plugin-svg-icons": "^2.0.1"
+  }
+}
