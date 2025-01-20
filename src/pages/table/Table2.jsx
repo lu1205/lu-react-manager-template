@@ -112,6 +112,7 @@ const Table2 = () => {
           />
           <Pagination
             total={tableParams.pagination.total}
+            showTotal={(total) => `共 ${total} 条记录`}
             showSizeChanger
             onChange={handleChangePagination}
             style={{

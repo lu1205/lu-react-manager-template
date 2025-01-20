@@ -141,6 +141,7 @@ const Table3 = () => {
             pagination={{
               ...tableParams.pagination,
               showSizeChanger: true,
+              showTotal: (total) =>`共 ${total} 条记录`,
             }}
             onChange={handleTableChange}
             scroll={{ y: tableHeight }}

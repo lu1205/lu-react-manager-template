@@ -102,6 +102,7 @@ const Table1 = () => {
             pagination={{
               ...tableParams.pagination,
               showSizeChanger: true,
+              showTotal: (total) =>`共 ${total} 条记录`,
             }}
             onChange={handleTableChange}
             className="auto-height-table-and-pagination"
