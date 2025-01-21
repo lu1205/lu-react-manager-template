@@ -130,6 +130,14 @@ const routes = [
               lazy(() => import("@/pages/pdf/DownloadPdf"))
             ),
           },
+          {
+            path: "puppeteerPdf",
+            name: "PuppeteerPdf",
+            key: "puppeteerPdf",
+            element: lazyComponent(
+              lazy(() => import("@/pages/pdf/Puppeteer"))
+            ),
+          },
         ],
       },
     ],

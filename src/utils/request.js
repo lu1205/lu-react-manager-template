@@ -37,6 +37,11 @@ class Request {
       async (response) => {
         const url = response.config.url || "";
         this.abortControllerMap.delete(url);
+        
+        // 返回文件
+        if(response.headers['data-type'] === 'file') {
+          return response.data;
+        }
 
         if (response.data.code === 200) {
           // 接口正常返回
